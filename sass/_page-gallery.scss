@@ -1,0 +1,102 @@
+.section-gallery {
+    display: flex;
+    margin-top: 5px;
+}
+
+.section-gallery__sidebar {
+    width: 225px;
+    margin-right: 28px;
+    flex-shrink: 0;
+}
+
+.section-gallery__main {
+    flex-grow: 1;
+}
+
+.section-gallery__title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 15px;
+}
+
+.section-gallery__sidebar-seccion-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    font-weight: 800;
+}
+
+.section-gallery__sidebar-seccion-title:first-of-type {
+    margin-top: 15px;
+}
+
+.section-gallery__control {
+    display: block;
+    margin-left: 18px;
+    text-decoration: none !important;
+    margin-bottom: 10px;
+}
+
+.section-gallery__control--date {
+    background-image: url(../images/icon-calendar.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 32px;
+}
+
+.section-gallery__search-input {
+    background-image: url(../images/search-input.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 26px;
+}
+
+.section-gallery__dropdown {
+    color: #979797;
+    border: 1px solid #dddddd;
+    padding: 6px 8px;
+    background-image: url(../images/dropdown.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    cursor: pointer;
+}
+
+
+
+
+.section-gallery__main {}
+
+.section-gallery__summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section-gallery__sort-icon {
+    background-image: url(../images/icon-sort.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+.section-gallery__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-gallery__item {
+    margin: 0 20px 20px 0;
+}
+
+.section-gallery__image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 3px;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-gallery__item-name {
+    font-weight: 500;
+}

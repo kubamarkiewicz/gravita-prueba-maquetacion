@@ -1,0 +1,20 @@
+.modal-informes-globales__modal-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-informes-globales__image {
+    background-image: url(../images/modal-informes-globales.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.modal-informes-globales__modal-body {
+    padding: 18px 18px 9px 18px;
+    width: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}

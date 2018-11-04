@@ -1,0 +1,19 @@
+
+/**
+ Customize Bootstrap 4 variables 
+ https://getbootstrap.com/docs/4.0/getting-started/theming/
+
+ Customize Bootswatch Materia Theme
+ https://bootswatch.com/help/
+ */
+
+@import "node_modules/bootswatch/dist/materia/_variables";
+
+$primary: #00dec1;
+$theme-colors: (
+    "primary": $primary
+);
+/*$grid-gutter-width-base: 30px;*/
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootswatch/dist/materia/_bootswatch";

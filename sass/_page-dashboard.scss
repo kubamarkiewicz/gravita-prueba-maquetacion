@@ -1,0 +1,55 @@
+.section-dashboard {
+    padding-bottom: 23px;
+}
+
+.section-dashboard__image {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 23px;
+    position: relative;
+}
+
+.section-dashboard__logo {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    margin: 0 0 0 30px;
+    bottom: -60px;
+}
+
+.section-dashboard__container {
+    background-color: #ffffff;
+    max-width: 760px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+.section-dashboard__section-title {
+    font-size: 0.85rem;
+    font-weight: 800;
+    margin-top: 36px;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 3px;
+}
+
+.section-dashboard__list-item {
+    padding: 20px 0 20px 70px;
+    background-image: url(../images/icon-file.png);
+    background-repeat: no-repeat;
+    background-position: 22px 31px;
+    font-size: 1rem;
+}
+
+.section-dashboard__list-item-date {
+    font-size: 0.8rem;
+    color: #757575;
+}

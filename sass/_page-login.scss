@@ -1,0 +1,59 @@
+.section-login {
+    flex-grow: 1;
+    display: flex;
+}
+
+.section-login__main {
+    width: 450px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-login__main a {
+	color: #bebebe;
+}
+
+.section-login__form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 20px;
+}
+
+.section-login__title {
+    margin-bottom: 50px;
+}
+
+.section-login__subtitle {
+    margin-bottom: 40px;
+}
+
+.section-login__form-group {
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    margin-bottom: 2.5rem;
+}
+
+.section-login__form-group--email {
+    background-image: url(../images/icon-user.png);
+}
+
+.section-login__form-group--password {
+    background-image: url(../images/icon-lock.png);
+}
+
+.section-login__recovery {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.section-login__background {
+    flex-grow: 1;
+    background-image: url(../images/login-background.png);
+    background-size: cover;
+    background-position: center;
+}

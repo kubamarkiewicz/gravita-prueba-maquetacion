@@ -1,0 +1,196 @@
+.sidebar__main {
+    border-bottom: 2px solid #cfd0d0;
+}
+
+.sidebar__link {
+    display: block;
+    height: 40px;
+    padding: 2px 2px 2px 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none !important;
+    line-height: 1.3;
+}
+
+.sidebar__link:before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 24px;
+    height: 24px;
+    margin-left: -33px;
+}
+
+.sidebar__link--selected {
+    opacity: 0.6;
+}
+
+.sidebar__link--file:before {
+    background-image: url(../images/icon-file.png);
+}
+
+.sidebar__link--folder:before {
+    background-image: url(../images/icon-folder.png);
+}
+
+.sidebar__link--stats:before {
+    background-image: url(../images/icon-stats.png);
+}
+
+.sidebar__link--pallete:before {
+    background-image: url(../images/icon-pallete.png);
+}
+
+.sidebar__link--add {
+    border-left: 6px solid #cfd0d0;
+    border-bottom: 1px solid #cfd0d0;
+    padding-left: 50px;
+}
+
+.sidebar__link--add:before {
+    background-image: url(../images/icon-add.png);
+}
+
+.sidebar__link--stats:before {
+    background-image: url(../images/icon-stats.png);
+}
+
+.sidebar__link--user:before {
+    background-image: url(../images/icon-user-round.png);
+}
+
+.sidebar__link--study:before {
+    background-image: url(../images/icon-stats.png);
+}
+
+.sidebar__link--badge:before {
+    background-image: url(../images/icon-badge.png);
+}
+
+.sidebar__link--message:before {
+    background-image: url(../images/icon-message.png);
+}
+
+.sidebar__link--notification:before {
+    background-image: url(../images/icon-notification.png);
+}
+
+.sidebar__link--close:before {
+    background-image: url(../images/icon-close.png);
+}
+
+.sidebar__mis-marcas {
+    color: #c6c7c7;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 15px;
+    border-bottom: 1px solid #c6c7c7;
+}
+
+.sidebar__toggle {
+    background-image: url(../images/sidebar-toggle.png);
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.sidebar__marca {
+    position: relative;
+}
+
+.sidebar__marca-color {
+    position: absolute;
+    width: 6px;
+    height: 100%;
+}
+
+.sidebar__marca-toggle {
+    float: right;
+    cursor: pointer;
+    background-image: url(../images/icon-toggle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+}
+
+.sidebar__marca-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 4px 10px 8px 22px;
+    display: block;
+    text-decoration: none !important;
+}
+
+.sidebar__marca-details {
+    border-top: 1px solid #c6c7c7;
+    border-bottom: 1px solid #c6c7c7;
+    font-size: 0.73rem;
+    padding: 7px 25px;
+}
+
+.sidebar__marca-details-item {
+    margin: 15px 0px;
+}
+
+.sidebar__marca-add-user {
+    background-image: url(../images/icon-add-user.png);
+    display: inline-block;
+    width: 25px;
+    height: 16px;
+    vertical-align: bottom;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+}
+
+.sidebar__marca-space-usage {
+    background-color: #b2f6ec;
+    height: 7px;
+    margin-bottom: 15px;
+}
+
+.sidebar__marca-space-usage-percent {
+    background-color: $primary;
+    height: 100%;
+}
+
+.sidebar__footer {
+    border-top: 5px solid #cfd0d0;
+}
+
+.sidebar__user {
+    color: #757575;
+    padding: 4px 0 4px 16px;
+}
+
+.sidebar__user-toggle {
+    float: right;
+    cursor: pointer;
+    background-image: url(../images/icon-toggle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+}
+
+.sidebar__user-thumb {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.sidebar__highlight-text {
+    color: $primary;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
